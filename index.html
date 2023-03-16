@@ -1,47 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <main class="main_card">
+    <section class="result_card">
+      <h2>Your Result</h2>
+      <div class="score">
+        <p class="score-number">76</p>
+        <p class="score-out-of">of 100</p>
+      </div>
 
-  Your Result
-  76
-  of 100
+      <h1>Great</h1>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <section class="summary">
+      <h2>Summary</h2>
 
-  Reaction
-  80 / 100
+      <ul>
+        <li>
+          <img src="assets/images/icon-reaction.svg" alt="Reaction icon">
+          <p class="category-name">Reaction</p>
+          <p class="category-score">80 / 100</p>
+        </li>
+        <li>
+          <img src="assets/images/icon-memory.svg" alt="Memory icon">
+          <p class="category-name">Memory</p>
+          <p class="category-score">92 / 100</p>
+        </li>
+        <li>
+          <img src="assets/images/icon-verbal.svg" alt="Verbal icon">
+          <p class="category-name">Verbal</p>
+          <p class="category-score">61 / 100</p>
+        </li>
+        <li>
+          <img src="assets/images/icon-visual.svg" alt="Visual icon">
+          <p class="category-name">Visual</p>
+          <p class="category-score">72 / 100</p>
+        </li>
+      </ul>
 
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
+      <a href="#" class="button">Continue</a>
+    </section>
+  </main>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/danaYatsuta">Dana Yatsuta</a>.
   </div>
 </body>
+
 </html>
