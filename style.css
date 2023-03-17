@@ -179,11 +179,11 @@ main {
     .result-card {
         width: 100%;
         border-radius: 0 0 30px 30px;
-        padding: 40px;
+        padding: 40px 60px;
     }
 
     .summary {
         width: 100%;
-        padding: 20px;
+        padding: 20px 40px;
     }
 }
