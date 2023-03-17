@@ -169,7 +169,7 @@ main {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media (max-width: 640px) {
+@media (max-width: 740px) {
     .main-card {
         flex-direction: column;
         border-radius: 0;
