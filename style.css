@@ -36,21 +36,21 @@ main {
 
 .main-card {
     display: flex;
-    width: 760px;
+    width: 740px;
     border-radius: 30px;
     box-shadow: 15px 15px 20px 1px hsl(221, 100%, 96%);
 }
 
 .result-card {
     display: flex;
-    flex: 1;
+    flex: 1 1 50%;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 30px;
     padding: 60px;
-    gap: 20px;
+    gap: 30px;
 }
 
 .result-card h2 {
@@ -90,7 +90,7 @@ main {
 }
 
 .summary {
-    flex: 1;
+    flex: 1 1 50%;
     display: flex;
     gap: 20px;
     flex-direction: column;
