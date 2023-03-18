@@ -78,7 +78,7 @@ main {
     border-radius: 50%;
 }
 
-.result-card .score .score-number {
+.result-card .score .score-value {
     color: hsl(0, 0%, 100%);
     font-size: 5rem;
     font-weight: 800;
@@ -124,12 +124,12 @@ main {
 }
 
 .summary ul li .category-score {
-    color: hsl(224, 30%, 27%);
+    color: hsla(224, 30%, 27%, 80%);
     font-weight: 700;
 }
 
-.summary ul li .category-score .summary-score-out-of {
-    opacity: 80%;
+.summary ul li .category-score .category-score-value {
+    color: hsl(224, 30%, 27%);
 }
 
 .summary ul li p {
