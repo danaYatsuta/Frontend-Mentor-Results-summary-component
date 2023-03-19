@@ -170,6 +170,10 @@ main {
 }
 
 @media (max-width: 740px) {
+    main {
+        align-items: start;
+    }
+
     .main-card {
         flex-direction: column;
         border-radius: 0;
