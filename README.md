@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution page on Frontend Mentor](https://www.frontendmentor.io/solutions/solution-using-vanilla-css-and-flexbox-ODBNr2Vhkr)
-- Live Site URL: [GitHub Pages](https://danayatsuta.github.io/frontend-mentor-results-summary-component/)
+- Live Site URL: [GitHub Pages](https://danayatsuta.github.io/fm-results-summary-component/)
 
 ## My process
 
